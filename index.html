@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff6e8">
+<meta name="description" content="Festival Plaza is a food-truck dice game. Six trucks, two prime parking spots, and twenty Fame.">
+<title>Festival Plaza — Good food. Big crowds.</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23fff6e8'/%3E%3Cpath d='M18 40h28l-4-16H22z' fill='%239a4b24'/%3E%3Ccircle cx='24' cy='44' r='3' fill='%232c2118'/%3E%3Ccircle cx='40' cy='44' r='3' fill='%232c2118'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#park">Skip to the plaza</a>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Festival Plaza home"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M10 30h28l-3-12H13z" fill="currentColor"/><circle cx="16" cy="33" r="2.4" fill="currentColor"/><circle cx="32" cy="33" r="2.4" fill="currentColor"/></svg>Festival Plaza</a>
+  <nav class="nav-links" aria-label="Page">
+    <a href="#park">The park</a>
+    <a href="#trucks">Trucks</a>
+    <a href="#serve">Service</a>
+    <a href="#devices">Screens</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div>
+      <p class="kicker">Food truck frenzy</p>
+      <h1>Good food. Big crowds.</h1>
+      <p class="lede">Festival Plaza is a dice game in a park you can walk around. Six trucks, six dice, and only two prime parking spots. Reach 20 Fame, or be the last truck still open.</p>
+      <div class="hero-actions">
+        <button class="store" type="button">Download on the App Store</button>
+        <a class="btn ghost" href="#screens">Look through the Festival</a>
+      </div>
+      <p class="fine">Every picture on this page is a frame from the game. Round 1, Signature skills on: the Taco Truck is serving, with three rival trucks already in the park and both parking spots still empty.</p>
+    </div>
+    <figure class="hero-shot">
+      <button class="shot frame" type="button" data-shot="media/play.jpg" data-caption="Round 1. The Taco Truck’s turn. Six dice are still face down. Two prime spots, P1 and P2, are empty and worth 2 Fame a turn.">
+        <img src="media/play.jpg" width="1440" height="900" alt="Festival Plaza round 1. A low-poly park with a Ferris wheel, roller coaster, and four food trucks. The Taco Truck is about to roll.">
+      </button>
+      <figcaption class="caption">Time to draw a crowd. The park, the trucks, and the dice on one screen.</figcaption>
+    </figure>
+  </section>
+
+  <ul class="facts" aria-label="What a Festival contains">
+    <li><strong>6</strong><span>trucks, each with a signature skill</span></li>
+    <li><strong>6</strong><span>dice. Hold any of them, then reroll</span></li>
+    <li><strong>3</strong><span>rolls. Then you serve</span></li>
+    <li><strong>20</strong><span>Fame, or the last truck open</span></li>
+    <li><strong>2</strong><span>prime spots in this Festival</span></li>
+  </ul>
+
+  <section class="section" id="park">
+    <div class="split">
+      <div class="copy">
+        <p class="kicker">Before the gate opens</p>
+        <h2>The park is already turning.</h2>
+        <p class="intro">The Ferris wheel and the coaster are up while you choose a truck. One or two local players. One or two parking spots. Classic is the dice alone. Signature skills, the mode in these pictures, turns on each truck’s own ability. Rivals take the trucks you do not.</p>
+      </div>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/setup.jpg" data-caption="The park is open. One player, two prime spots, three computer rivals, and the Taco Truck selected.">
+          <img src="media/setup.jpg" width="1440" height="900" alt="Festival setup over a pastel park. Good food. Big crowds. The Taco Truck is selected among six trucks.">
+        </button>
+        <figcaption class="caption">A little friendly competition. The Taco Truck is parked in the preview.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="trucks">
+    <p class="kicker">The six trucks</p>
+    <h2>Pick a window. The crowd picks back.</h2>
+    <p class="intro">Signature skills are on for the Festival in these frames. Classic turns the abilities off and leaves the dice. Either way, the trucks start as names on the setup screen and models on the path.</p>
+    <div class="races">
+      <article style="--race:#eea347"><h3>Taco Truck</h3><p class="species">Taco Tuesday</p><p>Roll at least two Customers to attract one extra. This is the truck serving in round 1.</p></article>
+      <article style="--race:#ed766a"><h3>Ramen Van</h3><p class="species">Comfort Food</p><p>Outside the plaza, two or more Reputation dice restore one extra Reputation.</p></article>
+      <article style="--race:#db744d"><h3>Pizza Wagon</h3><p class="species">Party Slices</p><p>Gain one extra Fame when your dice score any numbered combination.</p></article>
+      <article style="--race:#65a6bc"><h3>Burger Bus</h3><p class="species">Loyal Regulars</p><p>When targeted, roll two service dice. A heart saves Reputation. A coin gains a Tip.</p></article>
+      <article style="--race:#b48bc7"><h3>Boba Truck</h3><p class="species">Tip Jar</p><p>Roll at least two Tips to collect one extra Tip.</p></article>
+      <article style="--race:#87c8ac"><h3>Ice Cream Truck</h3><p class="species">Sweet Recovery</p><p>When targeted, one service die. A heart saves two Reputation. A coin gains a Tip.</p></article>
+    </div>
+  </section>
+
+  <section class="section" id="serve">
+    <p class="kicker">The roll</p>
+    <h2>Hold what you like. Serve the rest.</h2>
+    <p class="intro">Three of a number score that number in Fame, and each extra matching die adds one. Separate sets stack. A heart restores one Reputation. A coin is a Tip. A person needs no set: each one takes a Reputation from an eligible rival. Parking is the other way to be famous. An empty prime spot pays 2 Fame every turn you keep it.</p>
+    <figure>
+      <button class="shot frame" type="button" data-shot="media/dice.jpg" data-caption="Roll 1 of 3 for the Taco Truck: one Tip, three Reputation, and two Fame showing 1. Tap a die to hold it. Two rolls remain, then Serve.">
+        <img src="media/dice.jpg" width="1440" height="900" alt="Festival dice showing one tip, three reputation, and two fame, beside the park full of trucks.">
+      </button>
+      <figcaption class="caption">Roll 1 of 3. The Taco Truck can hold, reroll, or serve.</figcaption>
+    </figure>
+    <div class="orders" style="margin-top:28px">
+          <article><em>Fame</em><h3>Numbers</h3><p>Three alike score their face value. Each extra alike adds 1 Fame. Separate sets stack.</p></article>
+          <article><em>Park</em><h3>Two spots</h3><p>P1 and P2 are empty at the start of this round. Keeping one is worth 2 Fame a turn.</p></article>
+          <article><em>Crowd</em><h3>People</h3><p>Each people die takes 1 Reputation from an eligible rival. No matching set required.</p></article>
+    </div>
+  </section>
+
+  <section class="section" id="devices">
+    <p class="kicker">The same Festival, other screens</p>
+    <h2>iPad and iPhone, both ways around.</h2>
+    <p class="intro">These are the game’s own layouts at the pixel size of the device. Nothing here is a cropped desktop picture.</p>
+
+    <div class="device-block">
+      <h3>iPad</h3>
+      <p class="meta">Landscape is 2048×1536. Portrait is 1536×2048. The park stays large enough to read the trucks.</p>
+      <div class="ipad-stage">
+        <figure class="bezel ipad-land">
+          <button class="shot" type="button" data-shot="media/ipad-landscape-play.jpg" data-caption="iPad landscape, 2048×1536. Round 1, the Taco Truck, before the roll.">
+            <img src="media/ipad-landscape-play.jpg" width="2048" height="1536" alt="iPad landscape Festival Plaza on round 1, park on the left and Roll dice on the right.">
+          </button>
+        </figure>
+        <figure class="bezel ipad-port">
+          <button class="shot" type="button" data-shot="media/ipad-portrait-play.jpg" data-caption="iPad portrait, 1536×2048. The same round, with the park above the dice.">
+            <img src="media/ipad-portrait-play.jpg" width="1536" height="2048" alt="iPad portrait Festival Plaza with the park above the serving panel.">
+          </button>
+        </figure>
+      </div>
+      <div class="more-shots">
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/ipad-landscape-setup.jpg" data-caption="iPad landscape. The park is open, and the Taco Truck is selected.">
+            <img src="media/ipad-landscape-setup.jpg" width="2048" height="1536" alt="iPad landscape Festival setup.">
+          </button>
+          <figcaption class="caption">Setup</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/ipad-portrait-setup.jpg" data-caption="iPad portrait. Choose a truck over the Ferris wheel.">
+            <img src="media/ipad-portrait-setup.jpg" width="1536" height="2048" alt="iPad portrait Festival setup.">
+          </button>
+          <figcaption class="caption">Portrait setup</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/ipad-landscape-dice.jpg" data-caption="iPad landscape. The first roll of round 1.">
+            <img src="media/ipad-landscape-dice.jpg" width="2048" height="1536" alt="iPad landscape Festival dice after the first roll.">
+          </button>
+          <figcaption class="caption">First roll</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/ipad-portrait-dice.jpg" data-caption="iPad portrait. The first roll under the park.">
+            <img src="media/ipad-portrait-dice.jpg" width="1536" height="2048" alt="iPad portrait Festival dice.">
+          </button>
+          <figcaption class="caption">Portrait roll</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="device-block">
+      <h3>iPhone</h3>
+      <p class="meta">Portrait is 1170×2532. Landscape is 2532×1170. The phone keeps the park and the dice on the same screen.</p>
+      <div class="phone-stage">
+        <figure class="bezel phone-port">
+          <button class="shot" type="button" data-shot="media/iphone-portrait-play.jpg" data-caption="iPhone portrait, 1170×2532. Round 1 before the roll.">
+            <img src="media/iphone-portrait-play.jpg" width="1170" height="2532" alt="iPhone portrait Festival Plaza, park above the dice.">
+          </button>
+        </figure>
+        <figure class="bezel phone-land">
+          <button class="shot" type="button" data-shot="media/iphone-landscape-play.jpg" data-caption="iPhone landscape, 2532×1170. The same round on a short, wide screen.">
+            <img src="media/iphone-landscape-play.jpg" width="2532" height="1170" alt="iPhone landscape Festival Plaza during round 1.">
+          </button>
+        </figure>
+      </div>
+      <div class="more-shots">
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/iphone-portrait-setup.jpg" data-caption="iPhone portrait. Choose the Taco Truck before the park opens.">
+            <img src="media/iphone-portrait-setup.jpg" width="1170" height="2532" alt="iPhone portrait Festival setup.">
+          </button>
+          <figcaption class="caption">Setup</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/iphone-portrait-dice.jpg" data-caption="iPhone portrait. The first roll.">
+            <img src="media/iphone-portrait-dice.jpg" width="1170" height="2532" alt="iPhone portrait Festival dice.">
+          </button>
+          <figcaption class="caption">First roll</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/iphone-landscape-setup.jpg" data-caption="iPhone landscape. Truck setup on a short screen.">
+            <img src="media/iphone-landscape-setup.jpg" width="2532" height="1170" alt="iPhone landscape Festival setup.">
+          </button>
+          <figcaption class="caption">Setup</figcaption>
+        </figure>
+        <figure>
+          <button class="shot frame" type="button" data-shot="media/iphone-landscape-dice.jpg" data-caption="iPhone landscape. The first roll of the Taco Truck.">
+            <img src="media/iphone-landscape-dice.jpg" width="2532" height="1170" alt="iPhone landscape Festival dice.">
+          </button>
+          <figcaption class="caption">First roll</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="screens">
+    <p class="kicker">The day, frame by frame</p>
+    <h2>From an empty spot to the first roll.</h2>
+    <div class="gallery">
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/setup.jpg" data-caption="The park is open. Choose a truck.">
+          <img src="media/setup.jpg" width="1440" height="900" alt="Festival setup with the park and six trucks.">
+        </button>
+        <figcaption class="caption">The park</figcaption>
+      </figure>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/play.jpg" data-caption="Round 1. Time to draw a crowd.">
+          <img src="media/play.jpg" width="1440" height="900" alt="Round 1 before the Taco Truck rolls.">
+        </button>
+        <figcaption class="caption">Round 1</figcaption>
+      </figure>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/dice.jpg" data-caption="Roll 1 of 3. One Tip, three Reputation, two Fame.">
+          <img src="media/dice.jpg" width="1440" height="900" alt="First Festival roll.">
+        </button>
+        <figcaption class="caption">First roll</figcaption>
+      </figure>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/ipad-landscape-setup.jpg" data-caption="iPad landscape setup, 2048×1536.">
+          <img src="media/ipad-landscape-setup.jpg" width="2048" height="1536" alt="iPad landscape setup.">
+        </button>
+        <figcaption class="caption">iPad park</figcaption>
+      </figure>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/ipad-portrait-play.jpg" data-caption="iPad portrait, round 1, 1536×2048.">
+          <img src="media/ipad-portrait-play.jpg" width="1536" height="2048" alt="iPad portrait round 1.">
+        </button>
+        <figcaption class="caption">iPad round</figcaption>
+      </figure>
+      <figure>
+        <button class="shot frame" type="button" data-shot="media/iphone-portrait-play.jpg" data-caption="iPhone portrait, round 1, 1170×2532.">
+          <img src="media/iphone-portrait-play.jpg" width="1170" height="2532" alt="iPhone portrait round 1.">
+        </button>
+        <figcaption class="caption">Phone</figcaption>
+      </figure>
+    </div>
+    <p class="note">The frames in the story above are 1440×900 desktop shots. iPad frames are 2048×1536 landscape and 1536×2048 portrait. iPhone frames are 1170×2532 portrait and 2532×1170 landscape.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Festival Plaza is a local dice game. The park, the trucks, and the save stay on the device.</p>
+  <p>Food truck frenzy</p>
+  <p class="legal-links"><a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Service</a> <a href="support.html">Support</a></p>
+</footer>
+
+<dialog id="viewer">
+  <form method="dialog"><button type="submit">Close</button></form>
+  <img alt="">
+  <p></p>
+</dialog>
+<script>
+const viewer = document.querySelector('#viewer');
+const view = viewer.querySelector('img');
+const cap = viewer.querySelector('p');
+document.body.addEventListener('click', event => {
+  const shot = event.target.closest('[data-shot]');
+  if (!shot) return;
+  const img = shot.querySelector('img');
+  view.src = shot.dataset.shot;
+  view.alt = img ? img.alt : '';
+  cap.textContent = shot.dataset.caption || view.alt;
+  viewer.showModal();
+});
+</script>
+</body>
+</html>
